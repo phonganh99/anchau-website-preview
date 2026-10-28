@@ -1,0 +1,45 @@
+/* Scoped reconstruction of LO_TRINH_MASTER.png. Does not style any other section. */
+#lo-trinh.route-master{position:relative;isolation:isolate;overflow:hidden;margin-top:100px;padding:82px 0 56px;background:radial-gradient(ellipse at center,#fff 30%,#f7fbff 100%);color:#00518F;font-family:Arial,Helvetica,sans-serif}
+#lo-trinh .route-decor{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:-1}
+#lo-trinh .route-content{width:calc(100% - 96px);max-width:1440px;margin:auto}
+#lo-trinh .route-heading{text-align:center;margin-bottom:30px}
+#lo-trinh .route-eyebrow{font-size:19px;line-height:1.4;letter-spacing:.1em;font-weight:400;color:#EFA017;margin:0}
+#lo-trinh .route-rule{display:block;width:80px;height:4px;border-radius:4px;background:#EFA017;margin:18px auto 17px}
+#lo-trinh h2{font-size:56px;line-height:1.22;letter-spacing:-.035em;color:#00518F;margin:0 0 17px;font-weight:700}
+#lo-trinh h2 em{color:#EFA017;font-style:normal}
+#lo-trinh .route-subtitle{color:#6c7890;font-size:22px;line-height:1.5;margin:0}
+#lo-trinh .route-grid{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px 36px}
+#lo-trinh .route-card{position:relative;min-width:0;background:rgba(255,255,255,.94);border-radius:21px;box-shadow:0 7px 30px #00518f05;text-align:center;padding:22px 24px 12px;display:flex;flex-direction:column;align-items:center;min-height:356px}
+#lo-trinh .route-number{position:absolute;top:13px;left:25px;color:#EFA017;font-size:55px;font-weight:700;line-height:1.2;letter-spacing:-.045em;z-index:1}
+#lo-trinh .route-icon{display:block;width:240px;max-width:100%;height:180px;flex-shrink:0;margin:0 auto 3px;overflow:visible}
+#lo-trinh h3{font-size:23px;line-height:1.22;letter-spacing:-.035em;color:#00518F;margin:0 0 10px;min-height:56px;display:flex;flex-direction:column;justify-content:center;font-weight:700}
+#lo-trinh .route-card p{color:#727d91;font-size:18px;line-height:1.36;margin:0;max-width:265px}
+#lo-trinh .route-arrow{position:absolute;top:120px;left:calc(100% - 30px);width:96px;height:44px;z-index:2;pointer-events:none}
+#lo-trinh .route-card:nth-child(4n) .route-arrow{display:none}
+@media(min-width:1600px){#lo-trinh .route-content{max-width:1440px}}
+@media(max-width:1100px){#lo-trinh.route-master{padding:64px 0 50px}#lo-trinh .route-content{width:calc(100% - 64px)}#lo-trinh h2{font-size:42px}#lo-trinh .route-subtitle{font-size:19px}#lo-trinh .route-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 36px}#lo-trinh .route-card:nth-child(2n) .route-arrow{display:none}#lo-trinh .route-decor{height:100%;opacity:.8}#lo-trinh .route-card{min-height:356px}}
+@media(max-width:560px){#lo-trinh.route-master{margin-top:64px;padding:44px 0 36px}#lo-trinh .route-content{width:calc(100% - 40px)}#lo-trinh .route-eyebrow{font-size:12px;letter-spacing:.12em}#lo-trinh .route-rule{width:55px;height:3px;margin:14px auto 18px}#lo-trinh h2{font-size:31px;line-height:1.2;margin-bottom:16px}#lo-trinh .route-subtitle{font-size:16px;line-height:1.55}#lo-trinh .route-heading{margin-bottom:28px}#lo-trinh .route-grid{grid-template-columns:minmax(0,1fr);gap:42px}#lo-trinh .route-card{min-height:350px;padding:20px 24px 25px;border-radius:20px}#lo-trinh .route-icon{height:180px}#lo-trinh .route-number{font-size:49px;left:24px;top:17px}#lo-trinh h3{font-size:22px}#lo-trinh .route-card p{font-size:17px}#lo-trinh .route-card .route-arrow,#lo-trinh .route-card:nth-child(2n) .route-arrow{display:block;left:calc(50% - 32px);top:calc(100% - 1px);width:64px;height:44px;transform:rotate(90deg)}#lo-trinh .route-card:last-child .route-arrow{display:none}#lo-trinh .route-decor{height:850px;opacity:.5}}
+
+/* Preserve the Taiwan illustration proportions at narrower breakpoints. */
+@media(max-width:1100px){#lo-trinh .route-decor{height:auto;aspect-ratio:1448/1086}#lo-trinh .route-card{padding-bottom:20px}}
+@media(max-width:560px){#lo-trinh .route-card{padding-bottom:25px}}
+
+/* Compact scale requested after master review; preserve all eight illustrations and content. */
+@media(min-width:1101px){
+#lo-trinh.route-master{padding:65px 0 45px;margin-top:80px}
+#lo-trinh .route-content{width:calc(100% - 144px);max-width:1152px}
+#lo-trinh .route-heading{margin-bottom:24px}
+#lo-trinh .route-eyebrow{font-size:15.2px}
+#lo-trinh .route-rule{width:64px;height:3.2px;margin:14px auto}
+#lo-trinh h2{font-size:44.8px;margin-bottom:14px}
+#lo-trinh .route-subtitle{font-size:17.6px}
+#lo-trinh .route-grid{gap:16px 29px}
+#lo-trinh .route-card{min-height:285px;border-radius:17px;padding:18px 19px 10px}
+#lo-trinh .route-number{font-size:44px;top:10px;left:20px}
+#lo-trinh .route-icon{width:192px;height:144px;margin-bottom:2px}
+#lo-trinh h3{font-size:18.4px;min-height:45px;margin-bottom:8px}
+#lo-trinh .route-card p{font-size:14.4px;max-width:212px}
+#lo-trinh .route-arrow{top:96px;left:calc(100% - 24px);width:77px;height:35px}
+}
+@media(max-width:1100px){#lo-trinh.route-master{padding-top:48px;padding-bottom:40px}#lo-trinh .route-card{min-height:310px;padding:18px 20px}#lo-trinh .route-icon{width:204px;height:153px}#lo-trinh .route-number{font-size:47px}#lo-trinh h3{font-size:20px;min-height:49px}#lo-trinh .route-card p{font-size:16px}#lo-trinh .route-arrow{top:105px}#lo-trinh h2{font-size:36px}#lo-trinh .route-subtitle{font-size:17px}}
+@media(max-width:560px){#lo-trinh.route-master{padding-top:36px;padding-bottom:30px;margin-top:52px}#lo-trinh h2{font-size:27px}#lo-trinh .route-subtitle{font-size:15px}#lo-trinh .route-grid{gap:36px}#lo-trinh .route-card{min-height:310px;padding:18px 20px}#lo-trinh .route-number{font-size:42px}#lo-trinh .route-card .route-arrow,#lo-trinh .route-card:nth-child(2n) .route-arrow{top:calc(100% - 4px)}}

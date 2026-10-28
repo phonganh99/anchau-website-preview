@@ -1,0 +1,21 @@
+/* Approved 5-system MASTER: source illustrations clipped in SVG viewports, never redrawn. */
+#chuong-trinh{width:100%;padding:38px 0 46px;margin-top:100px;background:radial-gradient(ellipse at center,#fff 20%,#f6faff 100%);color:#00518F}
+#chuong-trinh .section-heading{margin:0 auto 53px;width:94%;text-align:center}
+#chuong-trinh .eyebrow{font-size:17px;line-height:1.4;letter-spacing:.13em;color:#00518F;font-weight:400;margin:0 0 20px}
+#chuong-trinh .eyebrow:after{content:"";display:block;width:60px;height:3px;background:#EFA017;border-radius:2px;margin:18px auto 0}
+#chuong-trinh h2{font-size:43px;line-height:1.25;letter-spacing:-.035em;color:#00396c;max-width:1280px;margin:0 auto}
+#chuong-trinh h2 em{color:#006bc1}
+#chuong-trinh .program-grid{width:79.74%;max-width:1148.4px;grid-template-columns:repeat(6,minmax(0,1fr));gap:26px 24.3px}
+#chuong-trinh .program{grid-column:span 2;min-height:277.1px;padding:0 16px 12px;gap:0;border:0;border-radius:27px;background:#fff;box-shadow:0 10px 35px #00518f08;overflow:hidden;justify-content:flex-start}
+#chuong-trinh .program:nth-child(4){grid-column:2/span 2}
+#chuong-trinh .program-art{display:block;width:calc(94.444444% - 3.777778px);height:auto;aspect-ratio:260/140;flex-shrink:0;overflow:hidden;margin:0 auto 6px;mix-blend-mode:multiply}
+#chuong-trinh .program h3{font-size:28px;line-height:1.25;letter-spacing:-.035em;color:#00396c;margin:0 0 14px}
+#chuong-trinh .program-arrow{display:grid;place-items:center;width:35px;height:35px;border:1px solid #377ec1;border-radius:50%;font-size:26px;line-height:1;color:#00518F}
+#chuong-trinh .program:hover{transform:translateY(-3px);box-shadow:0 13px 35px #00518f15}
+@media(max-width:1100px){#chuong-trinh{padding:30px 0 34px}#chuong-trinh .section-heading{margin-bottom:38px}#chuong-trinh .eyebrow{font-size:13px;margin-bottom:14px}#chuong-trinh h2{font-size:32px}#chuong-trinh .program-grid{gap:20px 18px}#chuong-trinh .program{min-height:199.75px;padding:0 10px 12px;border-radius:20px}#chuong-trinh .program h3{font-size:21px;margin-bottom:18px}#chuong-trinh .program-arrow{width:28px;height:28px;font-size:21px}}
+@media(max-width:800px){#chuong-trinh h2{font-size:29px}#chuong-trinh .program-grid{width:82.8%;gap:18px 14.4px}#chuong-trinh .program{min-height:184.45px}#chuong-trinh .program h3{font-size:18px;min-height:45px;display:flex;align-items:center;justify-content:center;text-align:center;margin-bottom:10px}}
+@media(max-width:600px){#chuong-trinh{margin-top:64px;padding:28px 0 32px}#chuong-trinh .section-heading{width:calc(100% - 40px);margin-bottom:28px}#chuong-trinh h2{font-size:28px}#chuong-trinh .eyebrow{font-size:12px}#chuong-trinh .program-grid{width:calc(90% - 36px);grid-template-columns:1fr;gap:18px}#chuong-trinh .program,#chuong-trinh .program:nth-child(4),#chuong-trinh .program:last-child{grid-column:auto;width:100%;justify-self:stretch;min-height:236.36px;padding:0 12px 12px}#chuong-trinh .program h3{font-size:24px;min-height:0;margin-bottom:14px}#chuong-trinh .program-arrow{width:30px;height:30px;font-size:23px}}
+
+/* Keep illustration scale at 85% of the previous card inner width. */
+@media(min-width:601px) and (max-width:1100px){#chuong-trinh .program-art{width:calc(94.444444% - 1.511111px)}}
+@media(max-width:600px){#chuong-trinh .program-art{width:calc(94.444444% - 7.933333px)}}

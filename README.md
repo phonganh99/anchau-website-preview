@@ -1,2 +1,5 @@
-# anchau-website-preview
-Temporary An Châu website preview for design review. Static demo; no Lead backend.
+# An Châu — bản duyệt tạm
+
+Preview tĩnh để duyệt giao diện. Không có backend Lead/CRM. Nội dung mẫu, dữ liệu và quyền ảnh còn chờ duyệt theo tiến độ dự án.
+
+Không phải website production.

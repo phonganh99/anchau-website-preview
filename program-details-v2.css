@@ -1,0 +1,3 @@
+/* Four V2 content pages share the locked V1 layout. Long tab labels may wrap. */
+#work-study-v1.program-detail-v2 .tab-list{flex-wrap:wrap;overflow:visible;row-gap:12px}
+#work-study-v1.program-detail-v2 .tab{white-space:normal;text-align:left}

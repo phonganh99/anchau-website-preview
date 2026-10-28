@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" fill="none" aria-hidden="true">
+  <!-- Light abstract brand transitions: no skyline, tower, airplane or card illustrations. -->
+  <path d="M-190 68C-67 14 63 33 168 91C240 131 281 174 333 189C393 208 449 177 498 137" stroke="#98C7F1" stroke-width="1.35" opacity=".34"/anchau-website-preview/>
+  <path d="M-196 89C-88 62 19 79 111 124C185 159 246 206 333 207" stroke="#EFA017" stroke-width="1.05" opacity=".22"/anchau-website-preview/>
+  <circle cx="185" cy="135" r="5.5" fill="#8ABEEA" opacity=".38"/anchau-website-preview/>
+  <path d="M1285 36C1411 87 1503 158 1621 192" stroke="#81B8E9" stroke-width="1.3" opacity=".30"/anchau-website-preview/>
+  <path d="M1360 48C1461 69 1548 106 1660 125" stroke="#EFA017" stroke-width="1.05" opacity=".28"/anchau-website-preview/>
+  <circle cx="1422" cy="66" r="5.5" fill="#EFA017" opacity=".35"/anchau-website-preview/>
+  <!-- Very pale ribbons at the margins, kept behind and away from program cards. -->
+  <path d="M0 397C102 356 157 399 225 450C258 475 284 499 310 514C216 509 124 516 0 562V397Z" fill="#E7F3FD" opacity=".55"/anchau-website-preview/>
+  <path d="M1600 360C1525 361 1487 407 1412 467C1375 497 1327 523 1290 532C1438 526 1526 558 1600 602V360Z" fill="#ECF6FF" opacity=".43"/anchau-website-preview/>
+  <!-- Continuation below the second card row: almost-white blue/orange strands. -->
+  <path d="M-60 852C147 767 289 771 460 855C596 919 751 963 929 921C1093 882 1286 798 1654 873" stroke="#91C3F0" stroke-width="1.5" opacity=".36"/anchau-website-preview/>
+  <path d="M-80 880C140 798 277 808 431 878C586 948 747 987 942 948C1095 915 1337 840 1674 900" stroke="#EFA017" stroke-width="1.2" opacity=".25"/anchau-website-preview/>
+  <circle cx="1303" cy="813" r="6" fill="#8FBFEA" opacity=".40"/anchau-website-preview/>
+  <circle cx="333" cy="850" r="4" fill="#F3B855" opacity=".39"/anchau-website-preview/>
+</svg>
