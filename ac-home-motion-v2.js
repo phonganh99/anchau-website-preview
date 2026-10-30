@@ -14,7 +14,7 @@ try {
  const progress=document.createElement('div');progress.className='acv2-progress';progress.setAttribute('aria-hidden','true');document.body.append(progress);
  const thread=document.createElement('div');thread.className='acv2-thread';thread.setAttribute('aria-hidden','true');main.append(thread);
  const scenes=[...main.querySelectorAll(':scope>section')];
- scenes.slice(1).forEach((scene,i)=>{scene.classList.add('acv2-scene');const bridge=document.createElement('div');bridge.className='acv2-bridge';bridge.setAttribute('aria-hidden','true');bridge.innerHTML='<svg viewBox="0 0 550 80" preserveAspectRatio="none"><path d="M0 28C120 8 196 71 333 28S474 9 550 31"/anchau-website-preview/><path d="M0 42C120 22 196 85 333 42S474 23 550 45"/anchau-website-preview/></svg>';scene.prepend(bridge);});
+ scenes.slice(1).forEach((scene,i)=>{scene.classList.add('acv2-scene');const bridge=document.createElement('div');bridge.className='acv2-bridge';bridge.setAttribute('aria-hidden','true');bridge.innerHTML='<svg viewBox="0 0 550 80" preserveAspectRatio="none"><path d="M0 28C120 8 196 71 333 28S474 9 550 31"/><path d="M0 42C120 22 196 85 333 42S474 23 550 45"/></svg>';scene.prepend(bridge);});
  const groups=[
  ['#ve-an-chau .video-placeholder',-16],['#ve-an-chau > div:last-child',16],
  ['#chuong-trinh .section-heading',0],['#chuong-trinh .program',0],

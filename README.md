@@ -1,5 +1,3 @@
 # An Châu — bản duyệt tạm
 
-Preview tĩnh để duyệt giao diện. Không có backend Lead/CRM. Nội dung mẫu, dữ liệu và quyền ảnh còn chờ duyệt theo tiến độ dự án.
-
-Không phải website production.
+Snapshot preview ngày 30/10/2026 để gửi duyệt giao diện. Không phải website production. Form Lead chưa kết nối; không gửi/lưu dữ liệu. Nội dung và quyền ảnh cần duyệt theo hồ sơ dự án.

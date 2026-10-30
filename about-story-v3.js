@@ -10,10 +10,10 @@ addEventListener('keydown',e=>{if(e.key==='Escape'){nav.classList.remove('open')
 const openers=new WeakMap();function openDialog(d){openers.set(d,document.activeElement);d.showModal();document.body.classList.add('modal-open');}function closeDialog(d){d.close();}document.querySelectorAll('dialog').forEach(d=>{d.addEventListener('close',()=>{if(!document.querySelector('dialog[open]'))document.body.classList.remove('modal-open');openers.get(d)?.focus();});d.querySelector('.close-dialog').onclick=()=>closeDialog(d);d.addEventListener('click',e=>{if(e.target===d){const r=d.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)closeDialog(d);}});});
 document.querySelectorAll('[data-consult]').forEach(b=>b.addEventListener('click',()=>{const d=document.querySelector('#consult-dialog');d.querySelector('form').reset();d.querySelector('.form-status').textContent='';d.querySelector('form').dataset.source=b.dataset.consult;document.querySelector('#context').textContent=b.dataset.consult;openDialog(d);}));
 function notice(msg){document.querySelector('#notice-text').textContent=msg;openDialog(document.querySelector('#notice-dialog'));}
-document.querySelectorAll('[data-route]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();notice('Trang “'+a.textContent.trim()+'” sẽ được triển khai sau khi trang chủ được phê duyệt. Liên kết đã được dự kiến trong cấu trúc WordPress.');}));
+document.querySelectorAll('[data-route]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();notice('Bạn có thể truy cập mục “'+a.textContent.trim()+'” qua menu chính.');}));
 document.querySelectorAll('[data-pending]').forEach(b=>b.addEventListener('click',()=>notice(b.dataset.pending)));
 document.querySelector('.close-notice').onclick=()=>closeDialog(document.querySelector('#notice-dialog'));
-document.querySelectorAll('#consult-dialog form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();f.querySelector('.form-status').textContent='Đã kiểm tra giao diện form. Thông tin chưa được gửi hoặc lưu; chưa có lịch hẹn nào được xác nhận.';}));
+document.querySelectorAll('#consult-dialog form').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();f.querySelector('.form-status').textContent='Chưa thể gửi thông tin lúc này. Thông tin chưa được gửi hoặc lưu.';}));
 
 
 
